@@ -1,0 +1,37 @@
+:root {
+  --primary: #efb6b2;
+}
+
+.imageupload {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  background-color: white;
+  align-items: center;
+}
+
+.imageupload__progress {
+  width: 100%;
+}
+
+label input {
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+label span{
+    cursor: pointer;
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+label span:hover {
+    background-color: var(--primary);
+}
+
+.item {
+    margin: 5px;
+}
+
